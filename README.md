@@ -1,0 +1,2 @@
+# libswl
+Simple Windowing Library
