@@ -5,4 +5,7 @@ void*swl_GetWindowPtr();
 void swl_CloseWindow();
 void swl_SendQuitEvent();
 void swl_Mainloop(int(*loop)(float));
-int  swl_IsKeyDown(int key);
+int  swl_IsKeyDown(int y);
+int  swl_IsKeyPressed(int y);
+int  swl_IsKeyReleased(int y);
+void swl_GetMousePos(int* x, int* y);
